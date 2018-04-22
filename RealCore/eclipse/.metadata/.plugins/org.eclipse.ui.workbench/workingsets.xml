@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1523898523169_1" label="Modding" name="Modding">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RealCore/run/mods" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RealCore/run/config" type="2"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1523898460064_0" label="Window Working Set" name="Aggregate for window 1523898460063"/>
+<mruList name="Modding"/>
+</workingSetManager>

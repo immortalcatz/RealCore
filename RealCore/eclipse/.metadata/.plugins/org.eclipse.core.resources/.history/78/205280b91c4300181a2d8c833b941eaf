@@ -1,0 +1,22 @@
+package com.zoomiti.realcore.objects.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class BlockBase extends Block {
+
+	public BlockBase(String name, Material materialIn) {
+		super(materialIn);
+		
+	}
+
+	public void init() {
+		setCreativeTab(CreativeTabs.MISC);
+	}
+
+	@Override
+	public void registerModels() {
+		TestMod.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+	}
+}

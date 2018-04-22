@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    
+    "ingredients":[
+        {
+            "type":"forge:ore_dict",
+            "ore":"blockNickel"
+        }
+    ],
+    
+    "result":
+    {
+        "item":"realcore:ingot_nickel",
+        "count": 9
+    }
+}

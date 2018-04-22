@@ -1,0 +1,24 @@
+{
+    "type":"minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "III",
+        "III",
+        "III"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "type":"forge:ore_dict",
+            "ore":"ingot_tin"
+        }
+    },
+    
+    "result":
+    {
+        "item":"realcore:block_tin"
+    }
+}

@@ -1,0 +1,50 @@
+itemGroup.realcoretab=RealCore
+
+item.ingot_copper.name=Copper Ingot
+item.ingot_tin.name=Tin Ingot
+item.ingot_aluminum.name=Aluminum Ingot
+item.ingot_nickel.name=Nickel Ingot
+item.ingot_silver.name=Silver Ingot
+item.ingot_gadolinium.name=Gadolinium Ingot
+item.ingot_platinum.name=Platinum Ingot
+item.ingot_brass.name=Brass Ingot
+item.ingot_bronze.name=Bronze Ingot
+item.ingot_zinc.name=Zinc Ingot
+item.ingot_lead.name=Lead Ingot
+item.ingot_fenigd.name=Fenigd Ingot
+
+item.nugget_copper.name=Copper Nugget
+item.nugget_tin.name=Tin Nugget
+item.nugget_aluminum.name=Aluminum Nugget
+item.nugget_nickel.name=Nickel Nugget
+item.nugget_silver.name=Silver Nugget
+item.nugget_gadolinium.name=Gadolinium Nugget
+item.nugget_platinum.name=Platinum Nugget
+item.nugget_brass.name=Brass Nugget
+item.nugget_bronze.name=Bronze Nugget
+item.nugget_zinc.name=Zinc Nugget
+item.nugget_lead.name=Lead Nugget
+item.nugget_fenigd.name=Fenigd Nugget
+
+tile.ore_copper.name=Copper Ore
+tile.ore_tin.name=Tin Ore
+tile.ore_aluminum.name=Aluminum Ore
+tile.ore_nickel.name=Nickel Ore
+tile.ore_silver.name=Silver Ore
+tile.ore_gadolinium.name=Gadolinium Ore
+tile.ore_platinum.name=Platinum Ore
+tile.ore_zinc.name=Zinc Ore
+tile.ore_lead.name=Lead Ore
+
+tile.block_copper.name=Copper Block
+tile.block_tin.name=Tin Block
+tile.block_aluminum.name=Aluminum Block
+tile.block_nickel.name=Nickel Block
+tile.block_silver.name=Silver Block
+tile.block_gadolinium.name=Gadolinium Block
+tile.block_platinum.name=Platinum Block
+tile.block_zinc.name=Zinc Block
+tile.block_lead.name=Lead Block
+tile.block_brass.name=Brass Block
+tile.block_bronze.name=Bronze Block
+tile.block_fenigd.name=Fenigd Block

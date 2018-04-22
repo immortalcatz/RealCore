@@ -1,0 +1,24 @@
+package com.zoomiti.realcore.init;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
+
+public class CoreModCreativeTabs {
+
+	public static final CreativeTabs RealCoreTab = new MainCoreCreativeTab();
+	
+	private static class MainCoreCreativeTab extends CreativeTabs {
+
+		public MainCoreCreativeTab() {
+			super("realcoretab");
+		}
+
+		@Override
+		public ItemStack getTabIconItem() {
+			// TODO TabIcon
+			return null;
+		}
+		
+	}
+
+}

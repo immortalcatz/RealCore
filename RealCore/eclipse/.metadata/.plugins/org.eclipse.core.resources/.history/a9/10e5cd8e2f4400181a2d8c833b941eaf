@@ -1,0 +1,5 @@
+package com.zoomiti.realcore.util.handlers;
+
+public class PluginHandler {
+
+}

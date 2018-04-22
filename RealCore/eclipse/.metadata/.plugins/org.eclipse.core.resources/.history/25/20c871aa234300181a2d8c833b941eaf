@@ -1,0 +1,16 @@
+package com.zoomiti.realcore.init;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.zoomiti.realcore.objects.items.ItemBase;
+
+import net.minecraft.block.Block;
+import net.minecraft.item.Item;
+
+public class CoreModItems {
+
+	public static final List<Item> ITEMS = new ArrayList<>();
+	
+	public static final Item INGOT_COPPER = new ItemBase();
+}

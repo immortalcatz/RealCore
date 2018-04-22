@@ -1,0 +1,46 @@
+package com.zoomiti.realcore.util.compat;
+
+import com.zoomiti.realcore.init.CoreModBlocks;
+import com.zoomiti.realcore.util.RealCoreConfig;
+import com.zoomiti.realcore.util.interfaces.IPlugin;
+
+import jeresources.api.IJERAPI;
+import jeresources.api.JERPlugin;
+import jeresources.api.conditionals.Conditional;
+import jeresources.api.distributions.DistributionSquare;
+import jeresources.api.drop.LootDrop;
+import jeresources.api.restrictions.Restriction;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public class JerPlugin implements IPlugin {
+
+	@JERPlugin
+	public static IJERAPI jerAPI;
+
+	@Override
+	public void preInit(FMLPreInitializationEvent event) {
+		// Do nothing
+	}
+
+	@Override
+	public void init(FMLInitializationEvent event) {
+		final World world = jerAPI.getWorld();
+
+		jerAPI.getWorldGenRegistry().register(new ItemStack(CoreModBlocks.ORE_ALUMINUM),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.aluminumOreConfig.aluminumOresPerChunk,
+						4, RealCoreConfig.worldGenConfig.oreConfig.aluminumOreConfig.minHeightAluminum,
+						RealCoreConfig.worldGenConfig.oreConfig.aluminumOreConfig.maxHeightAluminum),
+				Restriction.OVERWORLD, false,
+				new LootDrop(new ItemStack(CoreModBlocks.ORE_ALUMINUM)));
+	}
+
+	@Override
+	public void postInit(FMLPostInitializationEvent event) {
+		// Do nothing
+	}
+
+}

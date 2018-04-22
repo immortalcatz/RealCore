@@ -1,0 +1,281 @@
+# Configuration file
+
+general {
+
+    ##########################################################################################################
+    # worldgen config
+    #--------------------------------------------------------------------------------------------------------#
+    # Config options for world generation
+    ##########################################################################################################
+
+    "worldgen config" {
+        # Master Control for world gen
+        B:"Is any RealCore generation enabled?"=true
+
+        ##########################################################################################################
+        # ore config
+        #--------------------------------------------------------------------------------------------------------#
+        # Config options for ore world gen
+        ##########################################################################################################
+
+        "ore config" {
+
+            ##########################################################################################################
+            # aluminum ore config
+            #--------------------------------------------------------------------------------------------------------#
+            # Config options for aluminum ore
+            ##########################################################################################################
+
+            "aluminum ore config" {
+                # Controls aluminum ore generation
+                B:"Aluminum Ore Gen"=true
+
+                # Aluminum ores per chunk
+                # Min: 1
+                # Max: 2147483647
+                I:"Aluminum o/c"=40
+
+                # Max Y Level where aluminum ore spawns
+                # Must be greater than min
+                # Min: 1
+                # Max: 255
+                I:"Max Y Aluminum"=50
+
+                # Min Y Level where aluminum ore spawns
+                # Must be less than max
+                # Min: 0
+                # Max: 254
+                I:"Min Y Aluminum"=0
+            }
+
+            ##########################################################################################################
+            # copper ore config
+            #--------------------------------------------------------------------------------------------------------#
+            # Config options for copper ore
+            ##########################################################################################################
+
+            "copper ore config" {
+                # Controls copper ore generation
+                B:"Copper Ore Gen"=true
+
+                # Copper ores per chunk
+                # Min: 1
+                # Max: 2147483647
+                I:"Copper o/c"=30
+
+                # Max Y Level where copper ore spawns
+                # Must be greater than min
+                # Min: 1
+                # Max: 255
+                I:"Max Y Copper"=50
+
+                # Min Y Level where copper ore spawns
+                # Must be less than max
+                # Min: 0
+                # Max: 254
+                I:"Min Y Copper"=0
+            }
+
+            ##########################################################################################################
+            # gadolinium ore config
+            #--------------------------------------------------------------------------------------------------------#
+            # Config options for gadolinium ore
+            ##########################################################################################################
+
+            "gadolinium ore config" {
+                # Controls gadolinium ore generation
+                B:"Gadolinium Ore Gen"=true
+
+                # Gadolinium ores per chunk
+                # Min: 1
+                # Max: 2147483647
+                I:"Gadolinium o/c"=10
+
+                # Max Y Level where gadolinium ore spawns
+                # Must be greater than min
+                # Min: 1
+                # Max: 255
+                I:"Max Y Gadolinium"=30
+
+                # Min Y Level where gadolinium ore spawns
+                # Must be less than max
+                # Min: 0
+                # Max: 254
+                I:"Min Y Gadolinium"=0
+            }
+
+            ##########################################################################################################
+            # lead ore config
+            #--------------------------------------------------------------------------------------------------------#
+            # Config options for lead ore
+            ##########################################################################################################
+
+            "lead ore config" {
+                # Controls lead ore generation
+                B:"Lead Ore Gen"=true
+
+                # Lead ores per chunk
+                # Min: 1
+                # Max: 2147483647
+                I:"Lead o/c"=20
+
+                # Max Y Level where lead ore spawns
+                # Must be greater than min
+                # Min: 1
+                # Max: 255
+                I:"Max Y Lead"=40
+
+                # Min Y Level where lead ore spawns
+                # Must be less than max
+                # Min: 0
+                # Max: 254
+                I:"Min Y Lead"=0
+            }
+
+            ##########################################################################################################
+            # nickel ore config
+            #--------------------------------------------------------------------------------------------------------#
+            # Config options for nickel ore
+            ##########################################################################################################
+
+            "nickel ore config" {
+                # Max Y Level where nickel ore spawns
+                # Must be greater than min
+                # Min: 1
+                # Max: 255
+                I:"Max Y Nickel"=50
+
+                # Min Y Level where nickel ore spawns
+                # Must be less than max
+                # Min: 0
+                # Max: 254
+                I:"Min Y Nickel"=0
+
+                # Controls nickel ore generation
+                B:"Nickel Ore Gen"=true
+
+                #  nickel ores per chunk
+                # Min: 1
+                # Max: 2147483647
+                I:"Nickel o/c"=30
+            }
+
+            ##########################################################################################################
+            # platinum ore config
+            #--------------------------------------------------------------------------------------------------------#
+            # Config options for platinum ore
+            ##########################################################################################################
+
+            "platinum ore config" {
+                # Max Y Level where platinum ore spawns
+                # Must be greater than min
+                # Min: 1
+                # Max: 255
+                I:"Max Y Platinum"=30
+
+                # Min Y Level where platinum ore spawns
+                # Must be less than max
+                # Min: 0
+                # Max: 254
+                I:"Min Y Platinum"=0
+
+                # Controls platinum ore generation
+                B:"Platinum Ore Gen"=true
+
+                # Platinum ores per chunk
+                # Min: 1
+                # Max: 2147483647
+                I:"Platinum o/c"=10
+            }
+
+            ##########################################################################################################
+            # silver ore config
+            #--------------------------------------------------------------------------------------------------------#
+            # Config options for silver ore
+            ##########################################################################################################
+
+            "silver ore config" {
+                # Max Y Level where silver ore spawns
+                # Must be greater than min
+                # Min: 1
+                # Max: 255
+                I:"Max Y Silver"=30
+
+                # Min Y Level where silver ore spawns
+                # Must be less than max
+                # Min: 0
+                # Max: 254
+                I:"Min Y Silver"=0
+
+                # Controls silver ore generation
+                B:"Silver Ore Gen"=true
+
+                # Silver ores per chunk
+                # Min: 1
+                # Max: 2147483647
+                I:"Silver o/c"=10
+            }
+
+            ##########################################################################################################
+            # tin ore config
+            #--------------------------------------------------------------------------------------------------------#
+            # Config options for tin ore
+            ##########################################################################################################
+
+            "tin ore config" {
+                # Max Y Level where tin ore spawns
+                # Must be greater than min
+                # Min: 1
+                # Max: 255
+                I:"Max Y Tin"=100
+
+                # Min Y Level where tin ore spawns
+                # Must be less than max
+                # Min: 0
+                # Max: 254
+                I:"Min Y Tin"=0
+
+                # Controls tin ore generation
+                B:"Tin Ore Gen"=true
+
+                # Tin ores per chunk
+                # Min: 1
+                # Max: 2147483647
+                I:"Tin o/c"=90
+            }
+
+            ##########################################################################################################
+            # zinc ore config
+            #--------------------------------------------------------------------------------------------------------#
+            # Config options for zinc ore
+            ##########################################################################################################
+
+            "zinc ore config" {
+                # Max Y Level where zinc ore spawns
+                # Must be greater than min
+                # Min: 1
+                # Max: 255
+                I:"Max Y Zinc"=50
+
+                # Min Y Level where zinc ore spawns
+                # Must be less than max
+                # Min: 0
+                # Max: 254
+                I:"Min Y Zinc"=0
+
+                # Controls zinc ore generation
+                B:"Zinc Ore Gen"=true
+
+                # Zinc ores per chunk
+                # Min: 1
+                # Max: 2147483647
+                I:"Zinc o/c"=45
+            }
+
+        }
+
+    }
+
+}
+
+

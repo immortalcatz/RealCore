@@ -1,0 +1,167 @@
+package com.zoomiti.realcore.init;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.zoomiti.realcore.objects.blocks.BlockBase;
+import com.zoomiti.realcore.objects.blocks.OreBase;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class CoreModBlocks {
+
+	public static final List<Block> BLOCKS = new ArrayList<>();
+	
+	public static final Block BLOCK_ALUMINUM = new BlockBase("aluminum", Material.IRON) {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block BLOCK_COPPER = new BlockBase("copper", Material.IRON) {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block BLOCK_GADOLINIUM = new BlockBase("gadolinium", Material.IRON) {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block BLOCK_LEAD = new BlockBase("lead", Material.IRON) {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block BLOCK_NICKEL = new BlockBase("nickel", Material.IRON) {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block BLOCK_PLATINUM = new BlockBase("platinum", Material.IRON) {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block BLOCK_SILVER = new BlockBase("silver", Material.IRON) {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block BLOCK_TIN = new BlockBase("tin", Material.IRON) {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block BLOCK_ZINC = new BlockBase("zinc", Material.IRON) {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	
+	
+	public static final Block ORE_ALUMINUM = new OreBase("aluminum") {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+
+	public static final Block ORE_COPPER = new OreBase("copper") {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block ORE_GADOLINIUM = new OreBase("gadolinium") {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block ORE_LEAD = new OreBase("lead") {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block ORE_NICKEL = new OreBase("nickel") {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block ORE_PLATINUM = new OreBase("platinum") {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block ORE_SILVER = new OreBase("silver") {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	public static final Block ORE_TIN = new OreBase("tin") {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	
+	
+	public static final Block ORE_ZINC = new OreBase("zinc") {
+		protected void init() {
+			super.init();
+			setHardness(5F);
+			setResistance(15F);
+			setHarvestLevel("pickaxe", 1);
+		};
+	};
+	
+	
+}

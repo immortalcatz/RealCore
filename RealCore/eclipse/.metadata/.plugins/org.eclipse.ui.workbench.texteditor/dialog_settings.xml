@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="1" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="aluminum"/>
+			<item value="bbb"/>
+			<item value=" "/>
+			<item value="Overw"/>
+			<item value="copper"/>
+			<item value="ruby"/>
+			<item value="Rubylumiumi"/>
+			<item value="I"/>
+		</list>
+		<list key="replacehistory">
+			<item value="zinc"/>
+			<item value="lead"/>
+			<item value="copper"/>
+			<item value=" "/>
+			<item value="aluminum"/>
+			<item value="Aluminum"/>
+			<item value="N"/>
+			<item value="ORE"/>
+		</list>
+	</section>
+</section>
