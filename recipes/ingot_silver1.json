@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    
+    "ingredients":[
+        {
+            "type":"forge:ore_dict",
+            "ore":"blockSilver"
+        }
+    ],
+    
+    "result":
+    {
+        "item":"realcore:ingot_silver",
+        "count": 9
+    }
+}

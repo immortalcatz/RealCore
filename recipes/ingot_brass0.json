@@ -1,0 +1,24 @@
+{
+    "type":"minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "III",
+        "III",
+        "III"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "type":"forge:ore_dict",
+            "ore":"nuggetBrass"
+        }
+    },
+    
+    "result":
+    {
+        "item":"realcore:ingot_brass"
+    }
+}
