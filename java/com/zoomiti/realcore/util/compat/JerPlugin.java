@@ -1,0 +1,86 @@
+package com.zoomiti.realcore.util.compat;
+
+import com.zoomiti.realcore.init.CoreModBlocks;
+import com.zoomiti.realcore.util.RealCoreConfig;
+import com.zoomiti.realcore.util.interfaces.IPlugin;
+
+import jeresources.api.IJERAPI;
+import jeresources.api.IWorldGenRegistry;
+import jeresources.api.JERPlugin;
+import jeresources.api.conditionals.Conditional;
+import jeresources.api.distributions.DistributionSquare;
+import jeresources.api.drop.LootDrop;
+import jeresources.api.restrictions.Restriction;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public class JerPlugin implements IPlugin {
+
+	@JERPlugin
+	public static IJERAPI jerAPI;
+
+	@Override
+	public void preInit(FMLPreInitializationEvent event) {
+		// Do nothing
+	}
+
+	@Override
+	public void init(FMLInitializationEvent event) {
+		final IWorldGenRegistry worldGenRegistry = jerAPI.getWorldGenRegistry();
+
+		worldGenRegistry.register(new ItemStack(CoreModBlocks.ORE_ALUMINUM),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.aluminumOreConfig.aluminumOresPerChunk,
+						6, RealCoreConfig.worldGenConfig.oreConfig.aluminumOreConfig.minHeightAluminum,
+						RealCoreConfig.worldGenConfig.oreConfig.aluminumOreConfig.maxHeightAluminum),
+				Restriction.OVERWORLD);
+		worldGenRegistry.register(new ItemStack(CoreModBlocks.ORE_COPPER),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.copperOreConfig.copperOresPerChunk,
+						6, RealCoreConfig.worldGenConfig.oreConfig.copperOreConfig.minHeightCopper,
+						RealCoreConfig.worldGenConfig.oreConfig.copperOreConfig.maxHeightCopper),
+				Restriction.OVERWORLD);
+		worldGenRegistry.register(new ItemStack(CoreModBlocks.ORE_GADOLINIUM),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.gadoliniumOreConfig.gadoliniumOresPerChunk,
+						2, RealCoreConfig.worldGenConfig.oreConfig.gadoliniumOreConfig.minHeightGadolinium,
+						RealCoreConfig.worldGenConfig.oreConfig.gadoliniumOreConfig.maxHeightGadolinium),
+				Restriction.OVERWORLD);
+		worldGenRegistry.register(new ItemStack(CoreModBlocks.ORE_LEAD),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.leadOreConfig.leadOresPerChunk,
+						6, RealCoreConfig.worldGenConfig.oreConfig.leadOreConfig.minHeightLead,
+						RealCoreConfig.worldGenConfig.oreConfig.leadOreConfig.maxHeightLead),
+				Restriction.OVERWORLD);
+		worldGenRegistry.register(new ItemStack(CoreModBlocks.ORE_NICKEL),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.nickelOreConfig.nickelOresPerChunk,
+						6, RealCoreConfig.worldGenConfig.oreConfig.nickelOreConfig.minHeightNickel,
+						RealCoreConfig.worldGenConfig.oreConfig.nickelOreConfig.maxHeightNickel),
+				Restriction.OVERWORLD);
+		worldGenRegistry.register(new ItemStack(CoreModBlocks.ORE_PLATINUM),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.platinumOreConfig.platinumOresPerChunk,
+						2, RealCoreConfig.worldGenConfig.oreConfig.platinumOreConfig.minHeightPlatinum,
+						RealCoreConfig.worldGenConfig.oreConfig.platinumOreConfig.maxHeightPlatinum),
+				Restriction.OVERWORLD);
+		worldGenRegistry.register(new ItemStack(CoreModBlocks.ORE_SILVER),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.silverOreConfig.silverOresPerChunk,
+						2, RealCoreConfig.worldGenConfig.oreConfig.silverOreConfig.minHeightSilver,
+						RealCoreConfig.worldGenConfig.oreConfig.silverOreConfig.maxHeightSilver),
+				Restriction.OVERWORLD);
+		worldGenRegistry.register(new ItemStack(CoreModBlocks.ORE_TIN),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.tinOreConfig.tinOresPerChunk,
+						6, RealCoreConfig.worldGenConfig.oreConfig.tinOreConfig.minHeightTin,
+						RealCoreConfig.worldGenConfig.oreConfig.tinOreConfig.maxHeightTin),
+				Restriction.OVERWORLD);
+		worldGenRegistry.register(new ItemStack(CoreModBlocks.ORE_ZINC),
+				new DistributionSquare(RealCoreConfig.worldGenConfig.oreConfig.zincOreConfig.zincOresPerChunk,
+						6, RealCoreConfig.worldGenConfig.oreConfig.zincOreConfig.minHeightZinc,
+						RealCoreConfig.worldGenConfig.oreConfig.zincOreConfig.maxHeightZinc),
+				Restriction.OVERWORLD);
+	}
+
+	@Override
+	public void postInit(FMLPostInitializationEvent event) {
+		// Do nothing
+	}
+
+}
